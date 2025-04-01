@@ -1,2 +1,8 @@
 # Nunyie
 # Reverses the casing for the letters in the input
+
+fullname = input("Please enter your full name in incorrect casing: ")
+
+reversed_casing_fullname = ''.join(char.upper() if char.islower() else char.lower() for char in fullname)
+
+print(reversed_casing_fullname)
