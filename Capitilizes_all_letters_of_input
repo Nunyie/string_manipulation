@@ -1,0 +1,8 @@
+# Nunyie
+# Capitalize all letters of an input string
+
+fullname = input("Please enter your full name: ")
+
+uppercase_fullname = fullname.upper()
+
+print(uppercase_fullname)
