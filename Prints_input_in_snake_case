@@ -1,2 +1,7 @@
 # Nunyie
-# Prints name in snake case
+# Prints name in snake case and lowercase
+name = input("Please enter your full name in incorrect casing: ")
+
+snake_case_name = '_'.join(word.lower() for word in name.split())
+
+print(snake_case_name)
