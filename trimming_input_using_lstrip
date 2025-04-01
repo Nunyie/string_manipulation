@@ -1,2 +1,8 @@
 # Nunyie
 # Trimming the space on the left side of an input using lstrip
+
+name = input("Please enter your full name:        ")
+
+trimmed_name = name.lstrip()
+
+print(f"Full Name:{trimmed_name}")
