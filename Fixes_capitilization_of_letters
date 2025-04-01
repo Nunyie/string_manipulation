@@ -1,8 +1,8 @@
 # Nunyie
 # Capitilizes first letter of each word in a string
-
 name = input("Please enter your full name in incorrect casing: ")
 
-proper_cased_name = name.title()
+# Capitalize the first letter of each word
+proper_cased_name = ' '.join(word.capitalize() for word in name.split())
 
 print(proper_cased_name)
