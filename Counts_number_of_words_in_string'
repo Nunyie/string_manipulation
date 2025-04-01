@@ -1,0 +1,9 @@
+# Nunyie
+# Counts number of words in string
+statement = input("Please enter a complete statement: ")
+
+words = statement.split()
+
+number_of_words = len(words)
+
+print(number_of_words)
