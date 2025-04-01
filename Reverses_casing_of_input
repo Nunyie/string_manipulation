@@ -3,6 +3,7 @@
 
 fullname = input("Please enter your full name in incorrect casing: ")
 
-reversed_casing_fullname = ''.join(char.upper() if char.islower() else char.lower() for char in fullname)
+# Use the swapcase() method to reverse the casing
+reversed_casing_fullname = fullname.swapcase()
 
 print(reversed_casing_fullname)
