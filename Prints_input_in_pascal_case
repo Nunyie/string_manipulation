@@ -1,2 +1,7 @@
 # Nunyie
 # Prints input in Pascal case
+fullname = input("Please enter your full name in incorrect casing: ")
+
+pascal_case_fullname = ''.join(word.capitalize() for word in fullname.split())
+
+print(pascal_case_fullname)
