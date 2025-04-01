@@ -1,2 +1,11 @@
 # Nunyie
 # Formatting an input into 6 digits with the range of 0-1000
+
+number = int(input("Please enter a number (0-1000): "))
+
+if 0 <= number <= 1000:
+    formatted_number = f"{number:06}"
+    
+    print(formatted_number)
+else:
+    print("Please enter a number between 0 and 1000.")
