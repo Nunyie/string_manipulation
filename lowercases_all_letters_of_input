@@ -1,2 +1,8 @@
 # Nunyie
 # Lowercases all letters of an input string
+
+fullname = input("Please enter your full name: ")
+
+lowercase_fullname = fullname.lower()
+
+print(lowercase_fullname)
